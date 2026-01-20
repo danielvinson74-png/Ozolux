@@ -45,6 +45,12 @@ const translations = {
       { title: "Используем профессиональное оборудование", desc: "Промышленные генераторы озона, а не бытовые очистители.", icon: "fa-microchip" },
       { title: "Работаем по стандарту, а не «по ощущениям»", desc: "Строгие протоколы дозировки и времени экспозиции.", icon: "fa-shield-halved" }
     ],
+    locationsTitle: "География чистоты Ozolux",
+    locationsSub: "Мы ежедневно работаем в самых престижных локациях Пхукета",
+    locationList: ["Laguna Phuket", "Bang Tao", "Layan", "Cape Yamu", "Kamala", "Rawai", "Chalong", "Royal Phuket Marina"],
+    finalCTATitle: "Готовы дышать полной грудью?",
+    finalCTASub: "Запишитесь на бесплатный замер качества воздуха уже сегодня. Мы покажем то, что скрыто от глаз.",
+    finalCTAButton: "Связаться с экспертом",
     serviceTitle: "Сегментированные решения",
     serviceSub: "Гипер-персонализация для любых типов активов на Пхукете.",
     serviceMore: "Подробнее",
@@ -114,11 +120,17 @@ const translations = {
     mythConclusion: "Solving the problem requires treatment that targets the cause, not the symptom.",
     trustLayerTitle: "Why Ozolux:",
     trustLayerItems: [
-      { title: "Work with Phuket properties", desc: "Deep knowledge of the local real estate market and developers.", icon: "fa-map-location-dot" },
-      { title: "Understand local climate", desc: "We know how to fight tropical mold at 80%+ humidity.", icon: "fa-cloud-sun-rain" },
-      { title: "Professional equipment", desc: "Industrial ozone generators, not household air purifiers.", icon: "fa-microchip" },
-      { title: "Standardized process, not guesswork", desc: "Strict protocols for dosage and exposure time.", icon: "fa-shield-halved" }
+      { title: "Phuket Asset Specialists", desc: "Deep knowledge of the local real estate market and developers.", icon: "fa-map-location-dot" },
+      { title: "Climate Specificity", desc: "Understanding extreme humidity and tropical flora.", icon: "fa-cloud-sun-rain" },
+      { title: "Pro Equipment", desc: "High-power industrial ozone generators, not household purifiers.", icon: "fa-microchip" },
+      { title: "Standardized Operations", desc: "Strict protocols for dosage and exposure time.", icon: "fa-shield-halved" }
     ],
+    locationsTitle: "Ozolux Clean Geography",
+    locationsSub: "Operating daily in Phuket's most prestigious locations",
+    locationList: ["Laguna Phuket", "Bang Tao", "Layan", "Cape Yamu", "Kamala", "Rawai", "Chalong", "Royal Phuket Marina"],
+    finalCTATitle: "Ready to breathe freely?",
+    finalCTASub: "Book a free air quality audit today. We'll show you what's hidden from plain sight.",
+    finalCTAButton: "Contact an Expert",
     serviceTitle: "Segmented Solutions",
     serviceSub: "Hyper-personalization for any type of asset in Phuket.",
     serviceMore: "Details",
@@ -193,6 +205,12 @@ const translations = {
       { title: "อุปกรณ์มาตรฐานมืออาชีพ", desc: "เครื่องกำเนิดโอโซนเกรดอุตสาหกรรม ไม่ใช่เครื่องฟอกอากาศทั่วไป", icon: "fa-microchip" },
       { title: "ทำงานตามมาตรฐาน ไม่ใช่ความรู้สึก", desc: "มีระเบียบขั้นตอนที่เข้มงวดสำหรับปริมาณและเวลาที่ใช้", icon: "fa-shield-halved" }
     ],
+    locationsTitle: "พื้นที่ให้บริการของ Ozolux",
+    locationsSub: "เราให้บริการทุกวันในพื้นที่ระดับพรีเมียมทั่วภูเก็ต",
+    locationList: ["Laguna Phuket", "Bang Tao", "Layan", "Cape Yamu", "Kamala", "Rawai", "Chalong", "Royal Phuket Marina"],
+    finalCTATitle: "พร้อมที่จะหายใจได้อย่างเต็มปอดหรือยัง?",
+    finalCTASub: "จองบริการตรวจสอบคุณภาพอากาศฟรีวันนี้ เราจะแสดงให้คุณเห็นสิ่งที่ซ่อนอยู่",
+    finalCTAButton: "ติดต่อผู้เชี่ยวชาญ",
     serviceTitle: "โซลูชั่นที่ตอบโจทย์เฉพาะด้าน",
     serviceSub: "การดูแลที่เป็นส่วนตัวสูงสำหรับทรัพย์สินทุกประเภทในภูเก็ต",
     serviceMore: "รายละเอียด",
@@ -226,7 +244,7 @@ const translations = {
     faqItems: [
       { question: "ปลอดภัยต่อเครื่องใช้ไฟฟ้าหรือไม่?", answer: "ปลอดภัยแน่นอน เราปฏิบัติตามมาตรฐานความเข้มข้นของโอโซนที่ปลอดภัยต่ออุปกรณ์อิเล็กทรอนิกส์" },
       { question: "จำเป็นต้องออกจากบ้านหรือไม่?", answer: "ใช่ ในระหว่างขั้นตอน (ประมาณ 60 นาที) และรออีก 15-20 นาทีเพื่อให้โอโซนสลายตัวเป็นออกซิเจน" },
-      { question: "ช่วยกำจัดกลิ่น 'เฟอร์นิเจอร์เก่า' ได้ไหม?", answer: "นี่คืองานถนัดของเรา การจัดการระดับโมเลกุลจะทำลายแหล่งกำเนิดกลิ่นโดยตรง ไม่ใช่แค่การกลบกลิ่น" }
+      { question: "ช่วยกำจัดกลิ่น 'เฟอร์นิเจอร์เก่า' ได้ไหม?", answer: "นี่คืองานถนัดของเรา การจัดการระดับโมлеกุลจะทำลายแหล่งกำเนิดกลิ่นโดยตรง ไม่ใช่แค่การกลบกลิ่น" }
     ],
     footerCTA: "เรียกผู้เชี่ยวชาญพร้อมเซ็นเซอร์วัดคุณภาพอากาศ",
     partnersTitle: "เข้าร่วมเป็นพาร์ทเนอร์ Ozolux Air Standard",
@@ -477,7 +495,7 @@ const App: React.FC = () => {
       </section>
 
       {/* Myth Busting Section */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-white text-slate-900">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto bg-slate-50 rounded-[3rem] p-8 md:p-16 border border-slate-100 shadow-sm relative overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-red-500/5 blur-3xl rounded-full"></div>
@@ -500,6 +518,44 @@ const App: React.FC = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Trust Layer Section */}
+      <section className="py-24 bg-slate-50 border-y border-slate-200 text-slate-900">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">{t.trustLayerTitle}</h2>
+            <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {t.trustLayerItems.map((item, i) => (
+              <div key={i} className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                <div className="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                  <i className={`fa-solid ${item.icon}`}></i>
+                </div>
+                <h4 className="text-lg font-bold text-slate-900 mb-3 leading-snug">{item.title}</h4>
+                <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Locations Section */}
+      <section className="py-24 bg-white text-slate-900 overflow-hidden">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-4">{t.locationsTitle}</h2>
+            <p className="text-slate-500 font-medium">{t.locationsSub}</p>
+          </div>
+          <div className="flex flex-wrap justify-center gap-4">
+             {t.locationList.map((loc, i) => (
+               <div key={i} className="px-6 py-3 bg-slate-50 border border-slate-200 rounded-full font-bold text-slate-700 hover:border-blue-500 hover:text-blue-600 hover:bg-blue-50 transition-all cursor-default shadow-sm">
+                 <i className="fa-solid fa-location-dot mr-2 text-blue-500 opacity-50"></i> {loc}
+               </div>
+             ))}
           </div>
         </div>
       </section>
@@ -550,7 +606,7 @@ const App: React.FC = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-24 bg-white text-center">
+      <section className="py-24 bg-white text-center text-slate-900">
         <h2 className="text-4xl font-black mb-4">{t.serviceTitle}</h2>
         <p className="text-slate-500 mb-16">{t.serviceSub}</p>
         <div className="container mx-auto px-6 grid md:grid-cols-3 gap-8 text-left">
@@ -565,27 +621,6 @@ const App: React.FC = () => {
               </div>
             </div>
           ))}
-        </div>
-      </section>
-
-      {/* Trust Layer Section */}
-      <section className="py-24 bg-slate-50 border-y border-slate-200">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">{t.trustLayerTitle}</h2>
-            <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {t.trustLayerItems.map((item, i) => (
-              <div key={i} className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                <div className="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
-                  <i className={`fa-solid ${item.icon}`}></i>
-                </div>
-                <h4 className="text-lg font-bold text-slate-900 mb-3 leading-snug">{item.title}</h4>
-                <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -615,8 +650,26 @@ const App: React.FC = () => {
         </div>
       </section>
 
+      {/* Final CTA Section */}
+      <section className="py-24 bg-slate-50 text-slate-900 border-t">
+        <div className="container mx-auto px-6">
+          <div className="max-w-5xl mx-auto bg-blue-600 rounded-[3rem] p-12 md:p-20 text-center text-white relative overflow-hidden shadow-2xl shadow-blue-600/20">
+             <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+             <div className="relative z-10">
+               <h2 className="text-4xl md:text-6xl font-black mb-8">{t.finalCTATitle}</h2>
+               <p className="text-xl md:text-2xl opacity-90 mb-12 max-w-3xl mx-auto leading-relaxed font-medium">
+                 {t.finalCTASub}
+               </p>
+               <button className="bg-white text-blue-600 px-12 py-5 rounded-2xl text-xl font-black hover:scale-105 transition shadow-2xl animate-pulse">
+                 {t.finalCTAButton} <i className="fa-brands fa-whatsapp ml-2"></i>
+               </button>
+             </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-white text-slate-900">
         <div className="container mx-auto px-6 max-w-4xl">
            <div className="text-center mb-16">
              <h2 className="text-4xl font-black mb-4 tracking-tight">{t.faqTitle}</h2>
@@ -645,7 +698,7 @@ const App: React.FC = () => {
   );
 
   const renderServices = () => (
-    <div className="pt-32 pb-24 bg-slate-50 min-h-screen">
+    <div className="pt-32 pb-24 bg-slate-50 min-h-screen text-slate-900">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-black mb-4">{t.serviceTitle}</h1>
@@ -678,7 +731,7 @@ const App: React.FC = () => {
             <div>
                 <div className="inline-block bg-blue-600 text-[10px] font-black px-4 py-1 rounded-full mb-6 uppercase tracking-[0.2em]">B2B PROGRAM</div>
                 <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight">{t.partnersTitle}</h1>
-                <p className="text-lg text-slate-400 mb-8 leading-relaxed">{t.partnersText}</p>
+                <p className="text-lg text-slate-400 mb-8 leading-relaxed">{t.partnersSub}</p>
                 <button className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-2xl text-lg font-bold transition shadow-2xl shadow-blue-500/20 w-fit">{t.partnersCTA}</button>
             </div>
             <div className="bg-slate-800/40 p-8 rounded-[2rem] border border-white/10 backdrop-blur">
@@ -754,18 +807,18 @@ const App: React.FC = () => {
       <footer className="bg-slate-50 border-t pt-24 pb-12">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-12 mb-16">
-            <div className="col-span-2">
+            <div className="col-span-2 text-slate-900">
               <Logo />
               <p className="mt-6 text-slate-500 max-w-sm">
                 Ozolux — стандарт воздушной безопасности на Пхукете с 2026 года. Мы защищаем ваше здоровье и активы с помощью передовых молекулярных технологий.
               </p>
               <div className="flex gap-4 mt-8">
-                <a href="#" className="w-10 h-10 rounded-full bg-white border flex items-center justify-center hover:bg-blue-600 hover:text-white transition"><i className="fa-brands fa-whatsapp"></i></a>
-                <a href="#" className="w-10 h-10 rounded-full bg-white border flex items-center justify-center hover:bg-blue-600 hover:text-white transition"><i className="fa-brands fa-telegram"></i></a>
-                <a href="#" className="w-10 h-10 rounded-full bg-white border flex items-center justify-center hover:bg-blue-600 hover:text-white transition"><i className="fa-brands fa-line"></i></a>
+                <a href="#" className="w-10 h-10 rounded-full bg-white border flex items-center justify-center hover:bg-blue-600 hover:text-white transition text-slate-600"><i className="fa-brands fa-whatsapp"></i></a>
+                <a href="#" className="w-10 h-10 rounded-full bg-white border flex items-center justify-center hover:bg-blue-600 hover:text-white transition text-slate-600"><i className="fa-brands fa-telegram"></i></a>
+                <a href="#" className="w-10 h-10 rounded-full bg-white border flex items-center justify-center hover:bg-blue-600 hover:text-white transition text-slate-600"><i className="fa-brands fa-line"></i></a>
               </div>
             </div>
-            <div>
+            <div className="text-slate-900">
               <h4 className="font-bold text-slate-900 mb-6 uppercase tracking-widest text-xs">Меню</h4>
               <ul className="space-y-4 text-slate-500 font-medium">
                 <li><button onClick={() => setCurrentPage('HOME')} className="hover:text-blue-600">{t.navAbout}</button></li>
@@ -773,7 +826,7 @@ const App: React.FC = () => {
                 <li><button onClick={() => setCurrentPage('PARTNERS')} className="hover:text-blue-600">{t.navPartners}</button></li>
               </ul>
             </div>
-            <div>
+            <div className="text-slate-900">
               <h4 className="font-bold text-slate-900 mb-6 uppercase tracking-widest text-xs">Контакты</h4>
               <ul className="space-y-4 text-slate-500 font-medium">
                 <li>Phuket, Rawai / Bang Tao</li>
