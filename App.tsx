@@ -35,6 +35,16 @@ const translations = {
     threats: ["Плесень", "Вирусы", "Запахи", "VOC-газы"],
     threatTitle: "Невидимая чистота vs Скрытая угроза",
     threatSub: "Слева: Стерильная среда после Ozolux. Справа: Воздух, насыщенный спорами и аллергенами.",
+    mythTitle: "Уборка очищает поверхности. Проблема — глубже.",
+    mythText: "Химия и ароматизаторы маскируют запахи, но не уничтожают бактерии и грибок. Они остаются внутри материалов и возвращаются при первой влажности.",
+    mythConclusion: "Для решения проблемы требуется обработка, которая воздействует на причину, а не на симптом.",
+    trustLayerTitle: "Почему Ozolux:",
+    trustLayerItems: [
+      { title: "Работаем с объектами на Пхукете", desc: "Глубокое знание локального рынка недвижимости и застройщиков.", icon: "fa-map-location-dot" },
+      { title: "Понимаем особенности климата", desc: "Знаем, как бороться с тропической плесенью при влажности 80%+", icon: "fa-cloud-sun-rain" },
+      { title: "Используем профессиональное оборудование", desc: "Промышленные генераторы озона, а не бытовые очистители.", icon: "fa-microchip" },
+      { title: "Работаем по стандарту, а не «по ощущениям»", desc: "Строгие протоколы дозировки и времени экспозиции.", icon: "fa-shield-halved" }
+    ],
     serviceTitle: "Сегментированные решения",
     serviceSub: "Гипер-персонализация для любых типов активов на Пхукете.",
     serviceMore: "Подробнее",
@@ -99,6 +109,16 @@ const translations = {
     threats: ["Mold", "Viruses", "Odors", "VOC Gases"],
     threatTitle: "Invisible Clean vs Hidden Threat",
     threatSub: "Left: Sterile environment after Ozolux. Right: Air saturated with spores and allergens.",
+    mythTitle: "Cleaning cleans surfaces. The problem is deeper.",
+    mythText: "Chemicals and fragrances mask odors, but don't destroy bacteria and mold. They remain inside materials and return at the first sign of humidity.",
+    mythConclusion: "Solving the problem requires treatment that targets the cause, not the symptom.",
+    trustLayerTitle: "Why Ozolux:",
+    trustLayerItems: [
+      { title: "Work with Phuket properties", desc: "Deep knowledge of the local real estate market and developers.", icon: "fa-map-location-dot" },
+      { title: "Understand local climate", desc: "We know how to fight tropical mold at 80%+ humidity.", icon: "fa-cloud-sun-rain" },
+      { title: "Professional equipment", desc: "Industrial ozone generators, not household air purifiers.", icon: "fa-microchip" },
+      { title: "Standardized process, not guesswork", desc: "Strict protocols for dosage and exposure time.", icon: "fa-shield-halved" }
+    ],
     serviceTitle: "Segmented Solutions",
     serviceSub: "Hyper-personalization for any type of asset in Phuket.",
     serviceMore: "Details",
@@ -163,6 +183,16 @@ const translations = {
     threats: ["เชื้อรา", "ไวรัส", "กลิ่น", "ก๊าซ VOC"],
     threatTitle: "Invisible Clean vs Hidden Threat",
     threatSub: "ซ้าย: หลังการฆ่าเชื้อระดับโมเลกุล ขวา: เชื้อราสะสมในเครื่องปรับอากาศของคุณ",
+    mythTitle: "การทำความสะอาดทั่วไปทำได้เพียงแค่พื้นผิว แต่ปัญหาจริงๆ ซ่อนอยู่ลึกกว่านั้น",
+    mythText: "สารเคมีและน้ำหอมช่วยกลบกลิ่น แต่ไม่ได้กำจัดแบคทีเรียและเชื้อรา พวกมันยังคงอยู่ภายในวัสดุและจะกลับมาทันทีเมื่อมีความชื้น",
+    mythConclusion: "การแก้ปัญหาต้องอาศัยการจัดการที่ต้นเหตุ ไม่ใช่แค่การจัดการที่ปลายเหตุ",
+    trustLayerTitle: "ทำไมต้อง Ozolux:",
+    trustLayerItems: [
+      { title: "เชี่ยวชาญทรัพย์สินในภูเก็ต", desc: "ความเข้าใจอย่างลึกซึ้งในตลาดอสังหาริมทรัพย์และผู้พัฒนาในท้องถิ่น", icon: "fa-map-location-dot" },
+      { title: "เข้าใจลักษณะภูมิอากาศ", desc: "เรารู้วิธีจัดการกับเชื้อราในเขตร้อนที่มีความชื้นมากกว่า 80%", icon: "fa-cloud-sun-rain" },
+      { title: "อุปกรณ์มาตรฐานมืออาชีพ", desc: "เครื่องกำเนิดโอโซนเกรดอุตสาหกรรม ไม่ใช่เครื่องฟอกอากาศทั่วไป", icon: "fa-microchip" },
+      { title: "ทำงานตามมาตรฐาน ไม่ใช่ความรู้สึก", desc: "มีระเบียบขั้นตอนที่เข้มงวดสำหรับปริมาณและเวลาที่ใช้", icon: "fa-shield-halved" }
+    ],
     serviceTitle: "โซลูชั่นที่ตอบโจทย์เฉพาะด้าน",
     serviceSub: "การดูแลที่เป็นส่วนตัวสูงสำหรับทรัพย์สินทุกประเภทในภูเก็ต",
     serviceMore: "รายละเอียด",
@@ -446,6 +476,34 @@ const App: React.FC = () => {
         </div>
       </section>
 
+      {/* Myth Busting Section */}
+      <section className="py-24 bg-white">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto bg-slate-50 rounded-[3rem] p-8 md:p-16 border border-slate-100 shadow-sm relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-red-500/5 blur-3xl rounded-full"></div>
+            <div className="relative z-10">
+              <div className="inline-flex items-center gap-2 text-red-600 font-black text-[10px] uppercase tracking-[0.2em] mb-8">
+                <i className="fa-solid fa-triangle-exclamation"></i> Myth Busting
+              </div>
+              <h2 className="text-3xl md:text-5xl font-black text-slate-900 mb-8 leading-tight">
+                {t.mythTitle}
+              </h2>
+              <p className="text-xl text-slate-600 mb-10 leading-relaxed">
+                {t.mythText}
+              </p>
+              <div className="flex flex-col md:flex-row items-center gap-6 p-6 bg-white rounded-2xl border border-slate-200 shadow-sm">
+                <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl shrink-0 shadow-lg shadow-blue-500/20">
+                  <i className="fa-solid fa-lightbulb"></i>
+                </div>
+                <p className="font-bold text-slate-900 text-lg">
+                  {t.mythConclusion}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Partner Focus Section on Home Page */}
       <section className="py-24 bg-slate-900 overflow-hidden">
         <div className="container mx-auto px-6">
@@ -507,6 +565,27 @@ const App: React.FC = () => {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Trust Layer Section */}
+      <section className="py-24 bg-slate-50 border-y border-slate-200">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">{t.trustLayerTitle}</h2>
+            <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {t.trustLayerItems.map((item, i) => (
+              <div key={i} className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                <div className="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                  <i className={`fa-solid ${item.icon}`}></i>
+                </div>
+                <h4 className="text-lg font-bold text-slate-900 mb-3 leading-snug">{item.title}</h4>
+                <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -646,7 +725,7 @@ const App: React.FC = () => {
   );
 
   return (
-    <div className="min-h-screen font-sans">
+    <div className="min-h-screen font-sans text-slate-900">
       <div className="fixed top-0 left-0 h-1 bg-blue-600 z-[100] transition-all duration-300" style={{ width: `${scrollProgress}%` }}></div>
       <nav className="fixed top-0 left-0 right-0 z-50 glass-effect bg-white/70 shadow-sm px-6 py-4 flex justify-between items-center transition-all">
         <button onClick={() => setCurrentPage('HOME')}>
