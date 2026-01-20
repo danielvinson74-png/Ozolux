@@ -72,14 +72,18 @@ const translations = {
     ],
     footerCTA: "Вызвать эксперта с датчиком качества воздуха",
     partnersTitle: "Станьте партнером Ozolux Air Standard",
-    partnersSub: "Повысьте ценность ваших объектов и лояльность клиентов",
-    partnersText: "Мы работаем с крупнейшими управляющими компаниями Пхукета. Объекты с нашим сертификатом сдаются на 12% быстрее и получают оценку 5.0 за чистоту.",
+    partnersSub: "Повысьте ценность ваших объектов. Виллы с нашим сертификатом сдаются на 12% быстрее.",
     partnersCTA: "Получить партнерский прайс-лист",
+    certTitle: "Сертификат Ozolux",
+    certSub: "Ваше преимущество перед конкурентами",
     partnerBenefits: [
+      { title: "Заполнение объектов на 12% быстрее", desc: "Сертификат повышает доверие гостей" },
       { title: "White Label", desc: "Выдавайте наши сертификаты от своего бренда" },
       { title: "API Integration", desc: "Автоматический заказ стерилизации при выезде гостя" },
       { title: "Volume Discount", desc: "Специальные цены для портфеля от 10 объектов" }
-    ]
+    ],
+    partnerHeaderTitle: "Выгода для управляющих",
+    certExampleLabel: "Пример сертификата, который получают ваши клиенты"
   },
   EN: {
     heroTag: "Standard 2026: Molecular Sterilization",
@@ -132,14 +136,18 @@ const translations = {
     ],
     footerCTA: "Call expert with Air Quality Sensor",
     partnersTitle: "Become an Ozolux Air Standard Partner",
-    partnersSub: "Increase property value and client loyalty",
-    partnersText: "We work with Phuket's top management companies. Properties with our certificate rent 12% faster and maintain a 5.0 cleanliness rating.",
+    partnersSub: "Increase property value. Villas with our certificate rent 12% faster.",
     partnersCTA: "Get Partner Price List",
+    certTitle: "Ozolux Certificate",
+    certSub: "Your edge over the competition",
     partnerBenefits: [
+      { title: "12% faster occupancy", desc: "Certificate boosts guest trust" },
       { title: "White Label", desc: "Issue certificates under your own brand" },
       { title: "API Integration", desc: "Auto-book sterilization upon guest check-out" },
       { title: "Volume Discount", desc: "Special pricing for portfolios of 10+ properties" }
-    ]
+    ],
+    partnerHeaderTitle: "Benefits for Managers",
+    certExampleLabel: "Sample certificate your clients receive"
   },
   TH: {
     heroTag: "มาตรฐาน 2026: การฆ่าเชื้อระดับโมเลกุล",
@@ -154,7 +162,7 @@ const translations = {
     assetProtection: "Asset Protection: การอบโอโซนคือวิธีประหยัดเงินหลายล้านบาทจากการซ่อมแซมและการเปลี่ยนเฟอร์นิเจอร์ที่ถูกเชื้อรากัดกินในอนาคต",
     threats: ["เชื้อรา", "ไวรัส", "กลิ่น", "ก๊าซ VOC"],
     threatTitle: "Invisible Clean vs Hidden Threat",
-    threatSub: "ซ้าย: หลังการฆ่าเชื้อระดับโมлеกุล ขวา: เชื้อราสะสมในเครื่องปรับอากาศของคุณ",
+    threatSub: "ซ้าย: หลังการฆ่าเชื้อระดับโมเลกุล ขวา: เชื้อราสะสมในเครื่องปรับอากาศของคุณ",
     serviceTitle: "โซลูชั่นที่ตอบโจทย์เฉพาะด้าน",
     serviceSub: "การดูแลที่เป็นส่วนตัวสูงสำหรับทรัพย์สินทุกประเภทในภูเก็ต",
     serviceMore: "รายละเอียด",
@@ -162,7 +170,7 @@ const translations = {
     howSub: "แนวทางทางวิทยาศาสตร์เพื่อความสะอาดที่มองไม่เห็นใน 4 ขั้นตอน",
     steps: [
       { title: "Smart Audit", desc: "เราวัดระดับสารอินทรีย์ระเหยง่ายและความชื้นด้วยเซ็นเซอร์ความแม่นยำสูง" },
-      { title: "Molecular Attack", desc: "เราเติมโอโซนเข้มข้นเพื่อทำลายผนังเซลล์ของแบคทีเรียและโมлеกุลของกลิ่น" },
+      { title: "Molecular Attack", desc: "เราเติมโอโซนเข้มข้นเพื่อทำลายผนังเซลล์ของแบคทีเรียและโมเลกุลของกลิ่น" },
       { title: "Oxygen Transform", desc: "โอโซนสลายตัวเป็นออกซิเจนบริสุทธิ์ตามธรรมชาติ ไม่ทิ้งสารเคมีตกค้าง" },
       { title: "Certification", desc: "คุณจะได้รับหนังสือรับรองความสะอาดดิจิทัลและการรับประกันความสดชื่น" }
     ],
@@ -186,20 +194,24 @@ const translations = {
     ],
     faqTitle: "ตรวจสอบข้อเท็จจริง",
     faqItems: [
-      { question: "ปลอดภัยต่อเครื่องใช้ไฟฟ้าหรือไม่?", answer: "ปลอดภัยแน่นอน เราปฏิบัติตามมาตรฐานความเข้มข้น of โอโซนที่ปลอดภัยต่ออุปกรณ์อิเล็กทรอนิกส์" },
+      { question: "ปลอดภัยต่อเครื่องใช้ไฟฟ้าหรือไม่?", answer: "ปลอดภัยแน่นอน เราปฏิบัติตามมาตรฐานความเข้มข้นของโอโซนที่ปลอดภัยต่ออุปกรณ์อิเล็กทรอนิกส์" },
       { question: "จำเป็นต้องออกจากบ้านหรือไม่?", answer: "ใช่ ในระหว่างขั้นตอน (ประมาณ 60 นาที) และรออีก 15-20 นาทีเพื่อให้โอโซนสลายตัวเป็นออกซิเจน" },
       { question: "ช่วยกำจัดกลิ่น 'เฟอร์นิเจอร์เก่า' ได้ไหม?", answer: "นี่คืองานถนัดของเรา การจัดการระดับโมเลกุลจะทำลายแหล่งกำเนิดกลิ่นโดยตรง ไม่ใช่แค่การกลบกลิ่น" }
     ],
     footerCTA: "เรียกผู้เชี่ยวชาญพร้อมเซ็นเซอร์วัดคุณภาพอากาศ",
     partnersTitle: "เข้าร่วมเป็นพาร์ทเนอร์ Ozolux Air Standard",
-    partnersSub: "เพิ่มมูลค่าทรัพย์สินและความภักดีของลูกค้า",
-    partnersText: "เราทำงานร่วมกับบริษัทบริหารจัดการชั้นนำในภูเก็ต ทรัพย์สินที่มีใบรับรองของเราถูกเช่าเร็วขึ้น 12% และรักษาคะแนนความสะอาดที่ 5.0",
+    partnersSub: "เพิ่มมูลค่าทรัพย์สินของคุณ วิลล่าที่ได้รับใบรับรองของเราถูกเช่าเร็วขึ้น 12%",
     partnersCTA: "ขอรับรายการราคาพาร์ทเนอร์",
+    certTitle: "ตัวอย่างใบรับรอง",
+    certSub: "ข้อได้เปรียบของคุณเหนือคู่แข่ง",
     partnerBenefits: [
+      { title: "เช่าได้เร็วขึ้น 12%", desc: "ใบรับรองช่วยเพิ่มความมั่นใจให้กับแขก" },
       { title: "White Label", desc: "ออกใบรับรองภายใต้แบรนด์ของคุณเอง" },
       { title: "API Integration", desc: "จองบริการฆ่าเชื้ออัตโนมัติเมื่อแขกเช็คเอาท์" },
       { title: "Volume Discount", desc: "ราคาพิเศษสำหรับพอร์ตโฟลิโอมากกว่า 10 ทรัพย์สิน" }
-    ]
+    ],
+    partnerHeaderTitle: "ประโยชน์สำหรับผู้จัดการ",
+    certExampleLabel: "ตัวอย่างใบรับรองที่ลูกค้าของคุณจะได้รับ"
   }
 };
 
@@ -219,6 +231,59 @@ const SERVICES: Record<Language, ServiceCard[]> = {
     { title: "สำหรับธุรกิจ", subtitle: "ผู้จัดการและ Airbnb", description: "เช็คอินได้ทันที กำจัดกลิ่นบุหรี่และความอับชื้นภายใน 1 ชั่วโมง รับประกันรีวิว 5⭐️", icon: "fa-briefcase", image: "https://images.unsplash.com/photo-1560184897-ae75f418493e?auto=format&fit=crop&w=600&q=80" },
     { title: "สำหรับยานพาหนะ", subtitle: "รถยนต์และเรือ", description: "ความสดชื่นของเรือยอทช์หรือรถยนต์ใหม่ กำจัดกลิ่นดีเซล อาหาร และความชื้นจากเบาะ", icon: "fa-ship", image: "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=600&q=80" }
   ]
+};
+
+const PurityCertificate = () => {
+  return (
+    <div className="relative w-full max-w-sm mx-auto aspect-[3/4] bg-white rounded-xl shadow-2xl p-6 border-[12px] border-slate-100 flex flex-col items-center text-center overflow-hidden transition-transform hover:scale-[1.02] cursor-default">
+      <div className="absolute top-0 left-0 w-full h-2 bg-blue-600"></div>
+      <div className="mt-4 mb-2">
+        <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center text-blue-600 border-2 border-blue-600/20">
+          <i className="fa-solid fa-certificate text-3xl"></i>
+        </div>
+      </div>
+      <h3 className="text-xl font-black text-slate-900 uppercase tracking-tighter">CERTIFICATE OF PURITY</h3>
+      <p className="text-[10px] text-blue-500 font-bold uppercase tracking-widest mb-4">OZOLUX AIR SAFETY STANDARD</p>
+      
+      <div className="w-full h-px bg-slate-100 mb-4"></div>
+      
+      <div className="space-y-3 w-full text-left">
+        <div>
+          <label className="text-[8px] uppercase text-slate-400 font-bold tracking-widest">Location</label>
+          <p className="text-xs font-bold text-slate-800">Villa Azure, Laguna Phuket</p>
+        </div>
+        <div>
+          <label className="text-[8px] uppercase text-slate-400 font-bold tracking-widest">Treatment Date</label>
+          <p className="text-xs font-bold text-slate-800">{new Date().toLocaleDateString()}</p>
+        </div>
+        <div className="flex justify-between">
+           <div>
+             <label className="text-[8px] uppercase text-slate-400 font-bold tracking-widest">Status</label>
+             <p className="text-xs font-bold text-emerald-600 flex items-center gap-1">
+               <i className="fa-solid fa-circle-check"></i> MOLECULAR CLEAN
+             </p>
+           </div>
+           <div className="text-right">
+             <label className="text-[8px] uppercase text-slate-400 font-bold tracking-widest">Expiry</label>
+             <p className="text-xs font-bold text-slate-800">30 Days</p>
+           </div>
+        </div>
+      </div>
+
+      <div className="mt-auto pt-4 flex flex-col items-center gap-2">
+         <div className="w-16 h-16 bg-slate-50 border border-slate-200 flex items-center justify-center text-slate-300">
+           <i className="fa-solid fa-qrcode text-3xl opacity-20"></i>
+         </div>
+         <p className="text-[7px] text-slate-400 uppercase tracking-widest">Verify authenticity via QR Code</p>
+      </div>
+      
+      <div className="absolute -bottom-8 -right-8 w-24 h-24 bg-blue-600/5 rounded-full blur-xl"></div>
+      <div className="absolute bottom-2 right-2 opacity-10 flex flex-col items-end">
+         <span className="text-[8px] font-black italic tracking-tighter">OZOLUX</span>
+         <span className="text-[6px] font-bold tracking-widest">SAFE SPACE</span>
+      </div>
+    </div>
+  );
 };
 
 const App: React.FC = () => {
@@ -329,36 +394,24 @@ const App: React.FC = () => {
         <div className="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
           <div className="flex flex-col gap-8">
             <div className="relative aspect-square md:aspect-video rounded-3xl overflow-hidden shadow-2xl border group cursor-ew-resize select-none bg-slate-200">
-              {/* "BEFORE" LAYER (DIRTY) */}
               <div className="absolute inset-0 z-0">
-                {/* Clean image - same interior */}
                 <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80" className="w-full h-full object-cover brightness-[0.7] contrast-[1.2] sepia-[0.3] blur-[2px]" alt="Dirty Interior" />
-                {/* Smoke/Haze overlay */}
                 <div className="absolute inset-0 bg-gradient-to-b from-slate-900/40 via-orange-900/20 to-slate-900/40 mix-blend-multiply"></div>
-                {/* Microbe/Dust overlay using pattern */}
                 <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/pollen.png')] opacity-60 scale-150"></div>
-                {/* Red floating "virus" dots simulation using radial gradients */}
                 <div className="absolute inset-0 opacity-40 animate-pulse pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle, #ef4444 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
               </div>
 
-              {/* AFTER LAYER (CLEAN) with labels */}
               <div className="absolute inset-0 z-10" style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}>
-                {/* Clean background */}
                 <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80" className="w-full h-full object-cover brightness-[1.1] contrast-[0.95]" alt="Clean Interior" />
-                {/* Freshness effects */}
                 <div className="absolute inset-0 bg-blue-400/10 pointer-events-none"></div>
                 <div className="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')]"></div>
-                
-                {/* Label AFTER */}
                 <div className="absolute top-4 right-4 bg-blue-600/90 text-white px-3 py-1 rounded-full text-[12px] font-black shadow-lg uppercase tracking-wider z-30">После: Стерильный воздух</div>
               </div>
 
-              {/* Label BEFORE (Needs to be clipped or managed so it doesn't overlap when sliding) */}
               <div className="absolute inset-0 z-20 pointer-events-none" style={{ clipPath: `inset(0 0 0 ${sliderPos}%)` }}>
                 <div className="absolute top-4 left-4 bg-red-600/90 text-white px-3 py-1 rounded-full text-[12px] font-black shadow-lg uppercase tracking-wider">До: Скрытые угрозы</div>
               </div>
 
-              {/* Slider Controller */}
               <div className="absolute top-0 bottom-0 w-1 bg-white cursor-ew-resize z-40" style={{ left: `${sliderPos}%` }}>
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex items-center justify-center text-blue-600 shadow-2xl border-4 border-blue-600/20 group-hover:scale-110 transition-transform">
                   <i className="fa-solid fa-arrows-left-right text-sm"></i>
@@ -393,6 +446,51 @@ const App: React.FC = () => {
         </div>
       </section>
 
+      {/* Partner Focus Section on Home Page */}
+      <section className="py-24 bg-slate-900 overflow-hidden">
+        <div className="container mx-auto px-6">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="flex flex-col gap-8">
+              <div>
+                  <div className="inline-block bg-blue-600 text-[10px] font-black px-4 py-1 rounded-full mb-6 uppercase tracking-[0.2em] text-white">B2B FOCUS</div>
+                  <h2 className="text-4xl md:text-6xl font-black mb-6 leading-tight text-white">{t.partnersTitle}</h2>
+                  <p className="text-xl text-slate-400 mb-8 leading-relaxed">
+                    {t.partnersSub}
+                  </p>
+                  <button onClick={() => setCurrentPage('PARTNERS')} className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-2xl text-lg font-bold transition shadow-2xl shadow-blue-500/20 w-fit">
+                    {t.partnersCTA}
+                  </button>
+              </div>
+              <div className="bg-slate-800/40 p-8 rounded-[2rem] border border-white/10 backdrop-blur">
+                  <h3 className="text-xl font-bold mb-4 text-white">{t.partnerHeaderTitle}</h3>
+                  <ul className="space-y-4">
+                    {t.partnerBenefits.map((b, i) => (
+                      <li key={i} className="flex items-center gap-4 text-slate-300">
+                        <div className="w-6 h-6 rounded-full bg-blue-600/20 flex items-center justify-center text-blue-500 shrink-0">
+                          <i className="fa-solid fa-check text-xs"></i>
+                        </div>
+                        <div className="flex flex-col">
+                          <span className="font-bold text-sm">{b.title}</span>
+                          <span className="text-[10px] text-slate-500 uppercase font-black">{b.desc}</span>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+              </div>
+            </div>
+            <div className="relative flex flex-col items-center">
+               <div className="absolute -inset-20 bg-blue-600/10 blur-[120px] rounded-full"></div>
+               <div className="relative w-full transform lg:-rotate-3 hover:rotate-0 transition-transform duration-500">
+                  <PurityCertificate />
+               </div>
+               <div className="mt-8 text-center text-slate-500 text-sm font-bold uppercase tracking-widest">
+                  {t.certExampleLabel}
+               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section className="py-24 bg-white text-center">
         <h2 className="text-4xl font-black mb-4">{t.serviceTitle}</h2>
@@ -421,9 +519,7 @@ const App: React.FC = () => {
             <p className="text-slate-400">{t.howSub}</p>
           </div>
           <div className="grid md:grid-cols-4 gap-8 relative">
-            {/* Connector Line */}
             <div className="hidden md:block absolute top-12 left-20 right-20 h-0.5 bg-blue-500/20 z-0"></div>
-            
             {t.steps.map((step, i) => (
               <div key={i} className="relative z-10 flex flex-col items-center text-center group">
                 <div className="w-24 h-24 bg-slate-800 rounded-3xl flex items-center justify-center mb-8 border border-white/10 group-hover:border-blue-500 transition-all duration-500 shadow-2xl group-hover:scale-110">
@@ -466,24 +562,6 @@ const App: React.FC = () => {
            </div>
         </div>
       </section>
-
-      {/* Partners Sneak Peek */}
-      <section className="py-20 bg-blue-600 text-white relative overflow-hidden">
-        <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-12 relative z-10">
-           <div className="max-w-xl text-center lg:text-left">
-             <h2 className="text-3xl md:text-5xl font-black mb-6">{t.partnersTitle}</h2>
-             <p className="text-blue-100 text-lg mb-8">{t.partnersSub}</p>
-             <button onClick={() => setCurrentPage('PARTNERS')} className="bg-white text-blue-600 px-8 py-4 rounded-2xl font-black hover:bg-slate-100 transition shadow-xl">
-               {t.partnersCTA}
-             </button>
-           </div>
-           <div className="flex gap-4 md:gap-8 flex-wrap justify-center opacity-40">
-              <div className="bg-white/10 p-6 rounded-3xl backdrop-blur"><i className="fa-solid fa-building text-5xl"></i></div>
-              <div className="bg-white/10 p-6 rounded-3xl backdrop-blur"><i className="fa-solid fa-hotel text-5xl"></i></div>
-              <div className="bg-white/10 p-6 rounded-3xl backdrop-blur"><i className="fa-solid fa-umbrella-beach text-5xl"></i></div>
-           </div>
-        </div>
-      </section>
     </>
   );
 
@@ -509,26 +587,6 @@ const App: React.FC = () => {
             </div>
           ))}
         </div>
-        <div className="bg-white rounded-[2.5rem] shadow-xl border overflow-hidden">
-          <div className="bg-slate-900 p-12 text-white text-center">
-            <h2 className="text-3xl md:text-5xl font-black mb-4">{t.pricesTitle}</h2>
-            <p className="text-slate-400">{t.pricesSub}</p>
-          </div>
-          <div className="p-8 grid gap-4">
-            {t.priceCategories.map((cat, i) => (
-              <div key={i} className="flex flex-col md:flex-row items-center justify-between p-6 rounded-2xl hover:bg-slate-50 border border-transparent hover:border-slate-200 transition">
-                <div className="text-center md:text-left mb-4 md:mb-0">
-                  <h3 className="text-xl font-bold">{cat.name}</h3>
-                  <p className="text-sm text-slate-500">{cat.detail}</p>
-                </div>
-                <div className="flex items-center gap-6">
-                  <div className="text-2xl font-black text-blue-600">{cat.price}</div>
-                  <button className="bg-slate-100 hover:bg-blue-600 hover:text-white p-3 rounded-xl transition"><i className="fa-solid fa-arrow-right"></i></button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </div>
   );
@@ -537,24 +595,44 @@ const App: React.FC = () => {
     <div className="pt-32 pb-24 bg-slate-900 min-h-screen text-white">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-24">
-          <div>
-            <div className="inline-block bg-blue-600 text-xs font-black px-4 py-1.5 rounded-full mb-6 uppercase tracking-widest">B2B Program</div>
-            <h1 className="text-4xl md:text-6xl font-black mb-8 leading-tight">{t.partnersTitle}</h1>
-            <p className="text-xl text-slate-400 mb-10 leading-relaxed">{t.partnersText}</p>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-5 rounded-2xl text-xl font-bold transition shadow-2xl shadow-blue-500/20">{t.partnersCTA}</button>
+          <div className="flex flex-col gap-8">
+            <div>
+                <div className="inline-block bg-blue-600 text-[10px] font-black px-4 py-1 rounded-full mb-6 uppercase tracking-[0.2em]">B2B PROGRAM</div>
+                <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight">{t.partnersTitle}</h1>
+                <p className="text-lg text-slate-400 mb-8 leading-relaxed">{t.partnersText}</p>
+                <button className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-2xl text-lg font-bold transition shadow-2xl shadow-blue-500/20 w-fit">{t.partnersCTA}</button>
+            </div>
+            <div className="bg-slate-800/40 p-8 rounded-[2rem] border border-white/10 backdrop-blur">
+                <h3 className="text-xl font-bold mb-4">{t.certTitle}</h3>
+                <p className="text-sm text-slate-400 mb-6">{t.certSub}</p>
+                <ul className="grid grid-cols-2 gap-4">
+                    <li className="flex items-center gap-3 text-sm font-bold"><i className="fa-solid fa-qrcode text-blue-500"></i> QR-верификация</li>
+                    <li className="flex items-center gap-3 text-sm font-bold"><i className="fa-solid fa-earth-asia text-blue-500"></i> На 3 языках</li>
+                    <li className="flex items-center gap-3 text-sm font-bold"><i className="fa-solid fa-mobile-screen text-blue-500"></i> Цифровой формат</li>
+                    <li className="flex items-center gap-3 text-sm font-bold"><i className="fa-solid fa-shield-virus text-blue-500"></i> Asset Protection</li>
+                </ul>
+            </div>
           </div>
-          <div className="relative">
-             <div className="absolute -inset-4 bg-blue-600/20 blur-3xl rounded-full"></div>
-             {/* Updated Partner Card Background */}
-             <div className="relative bg-slate-800/50 backdrop-blur-xl p-8 md:p-12 rounded-[3rem] border border-white/10 shadow-2xl">
-                <div className="text-5xl font-black mb-2 text-blue-500">12%</div>
-                <div className="text-sm font-bold uppercase text-slate-400 mb-8">Increase in rental speed</div>
+          <div className="relative group flex flex-col items-center gap-12">
+             <div className="absolute -inset-10 bg-blue-600/10 blur-[120px] rounded-full"></div>
+             
+             <div className="relative w-full bg-slate-800/60 backdrop-blur-2xl p-8 md:p-12 rounded-[3rem] border border-white/20 shadow-2xl ring-1 ring-white/10 transition-all hover:bg-slate-800/80">
+                <div className="flex items-center justify-between mb-8">
+                    <div>
+                        <div className="text-5xl font-black text-blue-500 mb-2">12%</div>
+                        <div className="text-[10px] font-bold uppercase text-slate-400 tracking-widest">Increase in rental speed</div>
+                    </div>
+                    <div className="w-16 h-16 bg-blue-600/20 rounded-2xl flex items-center justify-center text-blue-500">
+                        <i className="fa-solid fa-chart-line text-3xl"></i>
+                    </div>
+                </div>
+                
                 <div className="space-y-6">
                   {t.partnerBenefits.map((b, i) => (
-                    <div key={i} className="flex gap-4 p-5 rounded-2xl bg-white/5 border border-white/5 hover:bg-white/10 transition-colors">
-                      <div className="w-12 h-12 bg-blue-600/30 rounded-xl flex items-center justify-center text-blue-400 shrink-0"><i className="fa-solid fa-check"></i></div>
+                    <div key={i} className="flex gap-4 p-5 rounded-2xl bg-white/5 border border-white/5 hover:bg-white/10 transition-all cursor-default group/item">
+                      <div className="w-12 h-12 bg-blue-600/30 rounded-xl flex items-center justify-center text-blue-400 shrink-0 group-hover/item:scale-110 transition-transform"><i className="fa-solid fa-check"></i></div>
                       <div>
-                        <div className="font-bold text-lg text-white mb-1">{b.title}</div>
+                        <div className="font-bold text-lg text-white mb-1 group-hover/item:text-blue-400 transition-colors">{b.title}</div>
                         <div className="text-sm text-slate-400 leading-relaxed">{b.desc}</div>
                       </div>
                     </div>
@@ -562,16 +640,6 @@ const App: React.FC = () => {
                 </div>
              </div>
           </div>
-        </div>
-        
-        <div className="border-t border-white/10 pt-16 text-center">
-           <p className="text-slate-500 font-bold uppercase tracking-widest text-sm mb-12">Trusted by major Phuket Agencies</p>
-           <div className="flex flex-wrap justify-center gap-12 opacity-30 grayscale hover:grayscale-0 transition duration-500">
-             <i className="fa-solid fa-building text-5xl"></i>
-             <i className="fa-solid fa-hotel text-5xl"></i>
-             <i className="fa-solid fa-city text-5xl"></i>
-             <i className="fa-solid fa-house-laptop text-5xl"></i>
-           </div>
         </div>
       </div>
     </div>
@@ -604,7 +672,6 @@ const App: React.FC = () => {
         {currentPage === 'PARTNERS' && renderPartners()}
       </main>
 
-      {/* Complex Footer */}
       <footer className="bg-slate-50 border-t pt-24 pb-12">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-12 mb-16">
@@ -620,7 +687,7 @@ const App: React.FC = () => {
               </div>
             </div>
             <div>
-              <h4 className="font-bold text-slate-900 mb-6 uppercase tracking-wider text-xs">Меню</h4>
+              <h4 className="font-bold text-slate-900 mb-6 uppercase tracking-widest text-xs">Меню</h4>
               <ul className="space-y-4 text-slate-500 font-medium">
                 <li><button onClick={() => setCurrentPage('HOME')} className="hover:text-blue-600">{t.navAbout}</button></li>
                 <li><button onClick={() => setCurrentPage('SERVICES')} className="hover:text-blue-600">{t.navServices}</button></li>
@@ -628,7 +695,7 @@ const App: React.FC = () => {
               </ul>
             </div>
             <div>
-              <h4 className="font-bold text-slate-900 mb-6 uppercase tracking-wider text-xs">Контакты</h4>
+              <h4 className="font-bold text-slate-900 mb-6 uppercase tracking-widest text-xs">Контакты</h4>
               <ul className="space-y-4 text-slate-500 font-medium">
                 <li>Phuket, Rawai / Bang Tao</li>
                 <li>+66 (0) 9X-XXX-XXXX</li>
@@ -637,7 +704,7 @@ const App: React.FC = () => {
               <button className="mt-6 text-blue-600 font-bold text-sm border-b-2 border-blue-600 pb-1">{t.footerCTA}</button>
             </div>
           </div>
-          <div className="pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400 text-xs font-bold uppercase tracking-widest">
+          <div className="pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400 text-[10px] font-bold uppercase tracking-[0.3em]">
             <span>© 2026 Ozolux Air Safety Standard</span>
             <div className="flex gap-6">
               <a href="#">Privacy Policy</a>
