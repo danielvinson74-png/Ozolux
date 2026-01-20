@@ -34,7 +34,7 @@ const translations = {
     assetProtection: "Asset Protection: Озонация — это способ сэкономить миллионы бат на будущем ремонте и замене мебели, съеденной грибком.",
     threats: ["Плесень", "Вирусы", "Запахи", "VOC-газы"],
     threatTitle: "Невидимая чистота vs Скрытая угроза",
-    threatSub: "Слева: Стерильная среда после Ozolux. Справа: Опасная плесень внутри вашего кондиционера.",
+    threatSub: "Слева: Стерильная среда после Ozolux. Справа: Воздух, насыщенный спорами и аллергенами.",
     serviceTitle: "Сегментированные решения",
     serviceSub: "Гипер-персонализация для любых типов активов на Пхукете.",
     serviceMore: "Подробнее",
@@ -94,7 +94,7 @@ const translations = {
     assetProtection: "Asset Protection: Ozonation is a way to save millions of THB on future repairs and furniture replacement eaten by fungus.",
     threats: ["Mold", "Viruses", "Odors", "VOC Gases"],
     threatTitle: "Invisible Clean vs Hidden Threat",
-    threatSub: "Left: Sterile environment after Ozolux. Right: Dangerous mold inside your Air Conditioner.",
+    threatSub: "Left: Sterile environment after Ozolux. Right: Air saturated with spores and allergens.",
     serviceTitle: "Segmented Solutions",
     serviceSub: "Hyper-personalization for any type of asset in Phuket.",
     serviceMore: "Details",
@@ -154,7 +154,7 @@ const translations = {
     assetProtection: "Asset Protection: การอบโอโซนคือวิธีประหยัดเงินหลายล้านบาทจากการซ่อมแซมและการเปลี่ยนเฟอร์นิเจอร์ที่ถูกเชื้อรากัดกินในอนาคต",
     threats: ["เชื้อรา", "ไวรัส", "กลิ่น", "ก๊าซ VOC"],
     threatTitle: "Invisible Clean vs Hidden Threat",
-    threatSub: "ซ้าย: หลังการฆ่าเชื้อระดับโมเลกุล ขวา: เชื้อราสะสมในเครื่องปรับอากาศของคุณ",
+    threatSub: "ซ้าย: หลังการฆ่าเชื้อระดับโมлеกุล ขวา: เชื้อราสะสมในเครื่องปรับอากาศของคุณ",
     serviceTitle: "โซลูชั่นที่ตอบโจทย์เฉพาะด้าน",
     serviceSub: "การดูแลที่เป็นส่วนตัวสูงสำหรับทรัพย์สินทุกประเภทในภูเก็ต",
     serviceMore: "รายละเอียด",
@@ -162,7 +162,7 @@ const translations = {
     howSub: "แนวทางทางวิทยาศาสตร์เพื่อความสะอาดที่มองไม่เห็นใน 4 ขั้นตอน",
     steps: [
       { title: "Smart Audit", desc: "เราวัดระดับสารอินทรีย์ระเหยง่ายและความชื้นด้วยเซ็นเซอร์ความแม่นยำสูง" },
-      { title: "Molecular Attack", desc: "เราเติมโอโซนเข้มข้นเพื่อทำลายผนังเซลล์ของแบคทีเรียและโมเลกุลของกลิ่น" },
+      { title: "Molecular Attack", desc: "เราเติมโอโซนเข้มข้นเพื่อทำลายผนังเซลล์ของแบคทีเรียและโมлеกุลของกลิ่น" },
       { title: "Oxygen Transform", desc: "โอโซนสลายตัวเป็นออกซิเจนบริสุทธิ์ตามธรรมชาติ ไม่ทิ้งสารเคมีตกค้าง" },
       { title: "Certification", desc: "คุณจะได้รับหนังสือรับรองความสะอาดดิจิทัลและการรับประกันความสดชื่น" }
     ],
@@ -186,7 +186,7 @@ const translations = {
     ],
     faqTitle: "ตรวจสอบข้อเท็จจริง",
     faqItems: [
-      { question: "ปลอดภัยต่อเครื่องใช้ไฟฟ้าหรือไม่?", answer: "ปลอดภัยแน่นอน เราปฏิบัติตามมาตรฐานความเข้มข้นของโอโซนที่ปลอดภัยต่ออุปกรณ์อิเล็กทรอนิกส์" },
+      { question: "ปลอดภัยต่อเครื่องใช้ไฟฟ้าหรือไม่?", answer: "ปลอดภัยแน่นอน เราปฏิบัติตามมาตรฐานความเข้มข้น of โอโซนที่ปลอดภัยต่ออุปกรณ์อิเล็กทรอนิกส์" },
       { question: "จำเป็นต้องออกจากบ้านหรือไม่?", answer: "ใช่ ในระหว่างขั้นตอน (ประมาณ 60 นาที) และรออีก 15-20 นาทีเพื่อให้โอโซนสลายตัวเป็นออกซิเจน" },
       { question: "ช่วยกำจัดกลิ่น 'เฟอร์นิเจอร์เก่า' ได้ไหม?", answer: "นี่คืองานถนัดของเรา การจัดการระดับโมเลกุลจะทำลายแหล่งกำเนิดกลิ่นโดยตรง ไม่ใช่แค่การกลบกลิ่น" }
     ],
@@ -329,20 +329,37 @@ const App: React.FC = () => {
         <div className="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
           <div className="flex flex-col gap-8">
             <div className="relative aspect-square md:aspect-video rounded-3xl overflow-hidden shadow-2xl border group cursor-ew-resize select-none bg-slate-200">
-              {/* After Image (Dirty / Moldy AC) */}
-              <div className="absolute inset-0">
-                <img src="https://images.unsplash.com/photo-1545239351-ef35f43d514b?auto=format&fit=crop&w=1200&q=80" className="w-full h-full object-cover grayscale-[0.3]" alt="Moldy AC" />
-                <div className="absolute top-4 left-4 bg-red-600/90 text-white px-3 py-1 rounded-full text-[12px] font-black shadow-lg uppercase">До: Опасная плесень</div>
-                <div className="absolute inset-0 bg-red-900/10 pointer-events-none"></div>
+              {/* "BEFORE" LAYER (DIRTY) */}
+              <div className="absolute inset-0 z-0">
+                {/* Clean image - same interior */}
+                <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80" className="w-full h-full object-cover brightness-[0.7] contrast-[1.2] sepia-[0.3] blur-[2px]" alt="Dirty Interior" />
+                {/* Smoke/Haze overlay */}
+                <div className="absolute inset-0 bg-gradient-to-b from-slate-900/40 via-orange-900/20 to-slate-900/40 mix-blend-multiply"></div>
+                {/* Microbe/Dust overlay using pattern */}
+                <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/pollen.png')] opacity-60 scale-150"></div>
+                {/* Red floating "virus" dots simulation using radial gradients */}
+                <div className="absolute inset-0 opacity-40 animate-pulse pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle, #ef4444 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
               </div>
-              {/* Before Image (Clean / Sterile AC) */}
-              <div className="absolute inset-0" style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}>
-                <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=1200&q=80" className="w-full h-full object-cover" alt="Sterile AC" />
-                <div className="absolute top-4 right-4 bg-blue-600/90 text-white px-3 py-1 rounded-full text-[12px] font-black shadow-lg uppercase">После: Стерильно</div>
-                <div className="absolute inset-0 bg-blue-400/5 pointer-events-none"></div>
+
+              {/* AFTER LAYER (CLEAN) with labels */}
+              <div className="absolute inset-0 z-10" style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}>
+                {/* Clean background */}
+                <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80" className="w-full h-full object-cover brightness-[1.1] contrast-[0.95]" alt="Clean Interior" />
+                {/* Freshness effects */}
+                <div className="absolute inset-0 bg-blue-400/10 pointer-events-none"></div>
+                <div className="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')]"></div>
+                
+                {/* Label AFTER */}
+                <div className="absolute top-4 right-4 bg-blue-600/90 text-white px-3 py-1 rounded-full text-[12px] font-black shadow-lg uppercase tracking-wider z-30">После: Стерильный воздух</div>
               </div>
+
+              {/* Label BEFORE (Needs to be clipped or managed so it doesn't overlap when sliding) */}
+              <div className="absolute inset-0 z-20 pointer-events-none" style={{ clipPath: `inset(0 0 0 ${sliderPos}%)` }}>
+                <div className="absolute top-4 left-4 bg-red-600/90 text-white px-3 py-1 rounded-full text-[12px] font-black shadow-lg uppercase tracking-wider">До: Скрытые угрозы</div>
+              </div>
+
               {/* Slider Controller */}
-              <div className="absolute top-0 bottom-0 w-1 bg-white cursor-ew-resize z-10" style={{ left: `${sliderPos}%` }}>
+              <div className="absolute top-0 bottom-0 w-1 bg-white cursor-ew-resize z-40" style={{ left: `${sliderPos}%` }}>
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex items-center justify-center text-blue-600 shadow-2xl border-4 border-blue-600/20 group-hover:scale-110 transition-transform">
                   <i className="fa-solid fa-arrows-left-right text-sm"></i>
                 </div>
@@ -350,7 +367,7 @@ const App: React.FC = () => {
               <input 
                 type="range" min="0" max="100" value={sliderPos} 
                 onChange={(e) => setSliderPos(Number(e.target.value))}
-                className="absolute inset-0 opacity-0 cursor-ew-resize z-20"
+                className="absolute inset-0 opacity-0 cursor-ew-resize z-50"
               />
             </div>
             <div className="text-center bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
@@ -411,7 +428,7 @@ const App: React.FC = () => {
               <div key={i} className="relative z-10 flex flex-col items-center text-center group">
                 <div className="w-24 h-24 bg-slate-800 rounded-3xl flex items-center justify-center mb-8 border border-white/10 group-hover:border-blue-500 transition-all duration-500 shadow-2xl group-hover:scale-110">
                    <div className="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center text-3xl">
-                     <i className={`fa-solid ${['fa-magnifying-glass-chart', 'fa-wind', 'fa-leaf', 'fa-award'][i]}`}></i>
+                     <i className={`fa-solid ${['fa-chart-line', 'fa-wind', 'fa-leaf', 'fa-award'][i]}`}></i>
                    </div>
                    <div className="absolute -top-3 -right-3 w-8 h-8 bg-slate-900 rounded-full border border-white/10 flex items-center justify-center font-black text-blue-500">{i+1}</div>
                 </div>
@@ -528,16 +545,17 @@ const App: React.FC = () => {
           </div>
           <div className="relative">
              <div className="absolute -inset-4 bg-blue-600/20 blur-3xl rounded-full"></div>
-             <div className="relative glass-effect p-8 md:p-12 rounded-[3rem] border border-white/10">
+             {/* Updated Partner Card Background */}
+             <div className="relative bg-slate-800/50 backdrop-blur-xl p-8 md:p-12 rounded-[3rem] border border-white/10 shadow-2xl">
                 <div className="text-5xl font-black mb-2 text-blue-500">12%</div>
                 <div className="text-sm font-bold uppercase text-slate-400 mb-8">Increase in rental speed</div>
                 <div className="space-y-6">
                   {t.partnerBenefits.map((b, i) => (
-                    <div key={i} className="flex gap-4 p-4 rounded-2xl bg-white/5 border border-white/5">
-                      <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center text-blue-500"><i className="fa-solid fa-check"></i></div>
+                    <div key={i} className="flex gap-4 p-5 rounded-2xl bg-white/5 border border-white/5 hover:bg-white/10 transition-colors">
+                      <div className="w-12 h-12 bg-blue-600/30 rounded-xl flex items-center justify-center text-blue-400 shrink-0"><i className="fa-solid fa-check"></i></div>
                       <div>
-                        <div className="font-bold text-lg">{b.title}</div>
-                        <div className="text-sm text-slate-400">{b.desc}</div>
+                        <div className="font-bold text-lg text-white mb-1">{b.title}</div>
+                        <div className="text-sm text-slate-400 leading-relaxed">{b.desc}</div>
                       </div>
                     </div>
                   ))}
