@@ -344,9 +344,9 @@ const App: React.FC = () => {
   const renderHome = () => (
     <>
       <header className="relative min-h-[90vh] flex items-center pt-24 overflow-hidden bg-slate-900">
-        <div className="absolute inset-0 opacity-40">
-           <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/40 to-transparent z-10"></div>
-           <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1920&q=80" className="w-full h-full object-cover" alt="Hero" />
+        <div className="absolute inset-0 opacity-50">
+           <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/60 to-transparent z-10"></div>
+           <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1920&q=80" className="w-full h-full object-cover" alt="Luxury Villa by the Sea" />
         </div>
         <div className="container mx-auto px-6 relative z-20">
           <div className="max-w-3xl">
